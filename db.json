@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "name": "Kamil",
+      "email": "kamil@example.com",
+      "id": 1
+    }
+  ],
+  "posts": [
+    {
+      "title": "First post",
+      "text": "This is the very fist post on this website",
+      "id": 1
+    },
+    {
+      "title": "Second post",
+      "text": "This is the second post on this website",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "userId": 1,
+      "postId": 1,
+      "text": "This is a comment first on something",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "postId": 1,
+      "text": "This is a comment second on something",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "postId": 2,
+      "text": "This is a comment second  asdfasdfon something",
+      "id": 3
+    }
+  ]
+}
